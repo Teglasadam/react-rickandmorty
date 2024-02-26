@@ -1,0 +1,43 @@
+.episodes {
+  width: 100vw;
+  min-height: 84vh;
+  background-color: rgb(38, 44, 58);
+}
+.episodes-container {
+  padding: 15px 0 15px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  place-items: center;
+}
+
+.episode {
+  display: flex;
+  flex-direction: column;
+  background-color: #906a3a;
+  width: 350px;
+  height: 100%;
+  padding: 0 5px 0 5px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px black;
+}
+
+@media (max-width: 1050px) {
+  .episodes-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 750px) {
+  .episodes-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 750px) {
+  .episode {
+    width: 500px;
+  }
+}

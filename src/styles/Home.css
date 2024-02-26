@@ -1,0 +1,19 @@
+.home {
+  width: 100vw;
+  height: 84vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ebdede;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home h1 {
+  margin: 0 0 30px 60px;
+  font-size: 52px;
+}
+.home q {
+  margin: 0 0 0 130px;
+  font-size: 26px;
+}

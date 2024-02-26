@@ -1,0 +1,20 @@
+.notfound {
+  width: 100vw;
+  min-height: 84vh;
+  background-position-y: -165px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.notfound h1 {
+  margin: 0 0 30px 60px;
+  font-size: 37px;
+}
+.notfound h3 {
+  margin: 0 0 0 130px;
+  font-size: 26px;
+}
